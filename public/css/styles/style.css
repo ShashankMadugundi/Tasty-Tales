@@ -1,0 +1,118 @@
+.navbar{
+    background-color: #f60000;
+}
+.brand a{
+    color:orange;
+    font-family:Playball;
+    font-size:23pt;
+    font-weight: 600;
+}
+.carousel-caption{
+    font-family: Playball;
+    font-size: 20pt;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    color: transparent;
+}
+.navitems a{
+    /* color:orange; */
+    color:black;
+    font-family:Lato;
+    font-size:13pt;
+    font-weight: 600;
+
+}
+.login{
+    color:white;
+    background-color: rgb(0, 140, 255);
+}
+.dis{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    height:30rem;
+    width: 60em;
+    justify-content: center;
+    /* object-fit: cover; */
+}
+.cuisine{
+    /* width:420px;
+    height: 300px; */
+    width: 100%;
+    height: 300px; /* Set height as needed */
+    object-fit: cover;
+}
+.cuisine_head{
+    font-family: Playball;
+    font-size: 28pt;
+    font-weight: 500;
+    color:#5D4037
+}
+.cuisine_desc{
+    font-family: Lato;
+}
+.cuisine_btn_ind{
+    background-color: #FF9933;
+    font-family: Playball;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    border: none;
+}
+.cuisine_btn_chn{
+    background-color: #f9341f;
+    font-family: Playball;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    border: none;
+}
+.cuisine_btn_usa{
+    background-color: #0A3161;
+    font-family: Playball;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    border: none;
+}
+.cuisine_btn_itly{
+    background-color:  #f3b42e;
+    font-family: Playball;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    border: none;
+}
+.cuisine_btn_dsrt{
+    background-color: brown;
+    font-family: Playball;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    border: none;
+}
+.cuisine_btn_mlk{
+    background-color: #9370DB;
+    font-family: Playball;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.noDeco{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .cuisine_image{
+    width:310px;
+    height:300px;
+} */
+/* font-family: Domaine Display, Georgia, Cambria, Times New Roman, Times, serif; */
+
+@media (max-width: 767px) {
+    .carousel-item .image {
+        width: 100%;
+        height: auto;
+        min-height: 350px; /* Adjust the max-height as needed */
+    }
+    .carousel-caption{
+        font-size: 15pt;
+    }
+}

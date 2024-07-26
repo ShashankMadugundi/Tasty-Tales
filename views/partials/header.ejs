@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg bg-warning-subtle ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse brand" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="/">Tasty Tales</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navitems">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <% if (locals.user) { %>
+          <li class="nav-item">
+            <a class="nav-link" href="/myrecipe">My Recipe</a>
+          </li>
+          <% } %>
+        </ul>
+        <% if (locals.user) { %>
+          <h3 class="m-2"><i>Hello, <%= user.username %></i></h3>
+         <% }else{ %>
+              <% } %>
+              <% if (locals.user) { %>
+                <form class="d-flex" action="/logout">
+                <button class="btn btn-outline-info login" type="submit">logout</button>
+              </form>
+               <% } else{ %>
+                <form class="d-flex" action="/login">
+              <button class="btn btn-outline-info login" type="submit">login/Signup</button>
+            </form>
+              <% } %>
+        <!-- <form class="d-flex" action="/signup">
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+          <button class="btn btn-outline-success login" type="submit">login/Signup</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>

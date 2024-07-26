@@ -1,0 +1,99 @@
+body{
+    height: 100%;
+    margin: 0;
+    /* background: -webkit-linear-gradient(left,#0e60b1,#0e78e2
+    , #0577e9); */
+    background-color: #eaeced;
+    font-family: sans-serif;
+}
+.form_contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    border-radius: 15px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    /* display: flex; */
+}
+.btn button{
+font-size: 23pt;
+margin:15px;
+color:white;
+background-color: #0162c3;
+border-radius:25px;
+border: none;
+flex:1;
+/* width: 80%; */
+}
+#login{
+    padding: 12px 50px 12px 50px;
+}
+#signup{
+    padding: 12px 40px 12px 40px;
+    background-color:#eaeced;
+    color:rgb(61, 61, 61);
+}
+#login:hover{
+    background-color: #419efb;
+    cursor: pointer;
+}
+#signup:hover{
+    background-color: #419efb;
+    cursor: pointer;
+}
+.box{
+    margin: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* margin: 15px; */
+
+}
+#email, #pass{
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(137, 137, 137);
+}
+input::placeholder {
+    color: #888; /* Change to desired color */
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+input {
+    font-size: 15pt;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+.box p{
+    color: #0162c3;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.box p:hover{
+    color: #419efb;
+    cursor: pointer;
+}
+#submit{
+    font-size: 23pt;
+    background-color: #0162c3;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #419efb;
+    cursor: pointer;
+}
