@@ -17,7 +17,7 @@ The project will look like as shown in images:
 ![image](https://github.com/user-attachments/assets/c8e8bb5d-fb03-48bf-a4e7-de9ccb9003fc)
 
 **Displaying the list of all recipes of a particular section**
-The below itesm are from Indian Cuisine -> Desserts
+The below items are from Indian Cuisine -> Desserts
 ![image](https://github.com/user-attachments/assets/668638a7-f256-4abe-a70e-3f6d284dfc54)
 
 
