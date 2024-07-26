@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/87dab70b-c9db-4117-9c41-4c1a5de1f055)# Tasty-Tales
+# Tasty-Tales
 Developed a comprehensive food blog website that showcases a variety of recipes, across variety  of cuisines, nutritional information, and engaging content about healthful eating And you are also  free to contribute your own recipes here.
 The project involved the following key components:
 1. FrontEnd: HTML, CSS, JavaScript, Bootstrap 
@@ -8,7 +8,6 @@ The project involved the following key components:
 
 The project will look like as shown in images:
 ![image](https://github.com/user-attachments/assets/45c7be81-4cb6-4153-bb8b-fe8f69c27cc2)
-![image](https://github.com/user-attachments/assets/3ccac8bb-c394-4bcd-bf71-2b0c181ee355)
 ![image](https://github.com/user-attachments/assets/b79603f0-8f6b-4404-adf4-ad2ae79f89d1)
 ![image](https://github.com/user-attachments/assets/8acfd2ce-50b8-4d44-b244-c92c55a2b6bd)
 ![image](https://github.com/user-attachments/assets/f1ed89d3-c915-407b-984b-843caf1f84ad)
