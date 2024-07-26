@@ -35,7 +35,5 @@ The below items are from Indian Cuisine -> Desserts
 **Contact Page**
 ![image](https://github.com/user-attachments/assets/92a9feee-f70b-4060-8c36-f650628fdab1)
 
-**login and signup**
-![image](https://github.com/user-attachments/assets/948bca7a-297e-4e82-ad0a-5e79681c1681)
-![image](https://github.com/user-attachments/assets/f0ef8c0e-0b81-4ee3-a28b-33494022af60)
+
 
